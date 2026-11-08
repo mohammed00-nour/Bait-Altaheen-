@@ -1,0 +1,42 @@
+:root {
+  color-scheme: light;
+
+  /* Backgrounds */
+  --bg-primary: #F7F2E9;
+  --bg-secondary: #FFFFFF;
+  --bg-card: #FFFFFF;
+
+  /* Text */
+  --text-primary: #302319;
+  --text-secondary: #806E5C;
+
+  /* Brand Colors */
+  --primary: #8B572F;
+  --secondary: #C69A5C;
+  --accent: #D5B27A;
+
+  /* Borders */
+  --border: #E8DED0;
+}
+
+.dark {
+  color-scheme: dark;
+
+  /* Backgrounds */
+  --bg-primary: #17120E;
+  --bg-secondary: #261C14;
+  --bg-card: #302319;
+
+  /* Text */
+  --text-primary: #F5EBDD;
+  --text-secondary: #D5BDA1;
+  --text-hover: #49372A;
+
+  /* Brand Colors */
+  --primary: #D5A15D;
+  --secondary: #C69A5C;
+  --accent: #E5BD83;
+
+  /* Borders */
+  --border: #49372A;
+}

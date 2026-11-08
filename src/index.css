@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+
+@import "tailwindcss";
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Scrollbar Styling */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--bg-secondary);
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--secondary);
+    border-radius: 20px;
+    border: 2px solid var(--text-primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-accent);
+}
+html,
+body,
+#root {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+}
+
+.art-grid-background {
+    background-color: #D8C3A5;
+
+    background-image:
+        linear-gradient(
+            to right,
+            rgba(73, 55, 43, 0.14) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            to bottom,
+            rgba(73, 55, 43, 0.14) 1px,
+            transparent 1px
+        );
+
+    background-size: 65px 65px;
+}
